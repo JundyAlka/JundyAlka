@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420" fill="none" role="img" aria-label="developer.js terminal card">
+  <defs>
+    <linearGradient id="termBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#04150f"/>
+      <stop offset="100%" stop-color="#020c09"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="800" height="420" rx="16" fill="#020c09" stroke="#134e3a" stroke-width="1.5"/>
+  <rect x="24" y="24" width="752" height="372" rx="12" fill="url(#termBg)" stroke="#10b981" stroke-opacity="0.45" stroke-width="1.2"/>
+
+  <!-- title bar -->
+  <path d="M24 36a12 12 0 0 1 12-12h728a12 12 0 0 1 12 12v22H24z" fill="#061d15"/>
+  <line x1="24" y1="58" x2="776" y2="58" stroke="#10b981" stroke-opacity="0.35" stroke-width="1"/>
+  <circle cx="48" cy="41" r="5.5" fill="#ef4444"/>
+  <circle cx="68" cy="41" r="5.5" fill="#f59e0b"/>
+  <circle cx="88" cy="41" r="5.5" fill="#10b981"/>
+  <text x="400" y="46" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="13" fill="#6ee7b7" letter-spacing="2">developer.js</text>
+  <circle cx="716" cy="41" r="4" fill="#10b981">
+    <animate attributeName="opacity" values="1;0.25;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="730" y="45" font-family="Consolas, Menlo, monospace" font-size="11" fill="#3f7f68">status</text>
+
+  <!-- gutter -->
+  <line x1="70" y1="58" x2="70" y2="362" stroke="#10b981" stroke-opacity="0.18" stroke-width="1"/>
+  <g font-family="Consolas, Menlo, monospace" font-size="13" fill="#2f6b56" text-anchor="end">
+    <text x="58" y="92">1</text>
+    <text x="58" y="118">2</text>
+    <text x="58" y="144">3</text>
+    <text x="58" y="170">4</text>
+    <text x="58" y="196">5</text>
+    <text x="58" y="222">6</text>
+    <text x="58" y="248">7</text>
+    <text x="58" y="274">8</text>
+    <text x="58" y="300">9</text>
+    <text x="58" y="326">10</text>
+  </g>
+
+  <!-- code -->
+  <g font-family="Consolas, Menlo, monospace" font-size="13.5">
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.1s" fill="freeze"/>
+      <text x="88" y="92" fill="#f472b6">const <tspan fill="#e2e8f0">developer = {</tspan></text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.4s" fill="freeze"/>
+      <text x="112" y="118" fill="#7dd3fc">name<tspan fill="#e2e8f0">: </tspan><tspan fill="#fbbf24">"Ahmad Jundy Alkrathoni"</tspan><tspan fill="#e2e8f0">,</tspan></text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.7s" fill="freeze"/>
+      <text x="112" y="144" fill="#7dd3fc">role<tspan fill="#e2e8f0">: </tspan><tspan fill="#fbbf24">"Fullstack Web Developer"</tspan><tspan fill="#e2e8f0">,</tspan></text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="1.0s" fill="freeze"/>
+      <text x="112" y="170" fill="#7dd3fc">stack<tspan fill="#e2e8f0">: [</tspan><tspan fill="#fbbf24">"TypeScript"</tspan><tspan fill="#e2e8f0">, </tspan><tspan fill="#fbbf24">"React"</tspan><tspan fill="#e2e8f0">, </tspan><tspan fill="#fbbf24">"Laravel"</tspan><tspan fill="#e2e8f0">, </tspan><tspan fill="#fbbf24">"MySQL"</tspan><tspan fill="#e2e8f0">],</tspan></text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="1.3s" fill="freeze"/>
+      <text x="112" y="196" fill="#7dd3fc">principle<tspan fill="#e2e8f0">: </tspan><tspan fill="#fbbf24">"Simple systems that people actually use."</tspan><tspan fill="#e2e8f0">,</tspan></text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="1.6s" fill="freeze"/>
+      <text x="112" y="222" fill="#7dd3fc">focus<tspan fill="#e2e8f0">: </tspan><tspan fill="#fbbf24">"POS, inventory &amp; AI-assisted tools"</tspan><tspan fill="#e2e8f0">,</tspan></text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="1.9s" fill="freeze"/>
+      <text x="112" y="248" fill="#7dd3fc">build<tspan fill="#e2e8f0">: () =&gt; {</tspan></text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="2.2s" fill="freeze"/>
+      <text x="136" y="274" fill="#f472b6">return <tspan fill="#fbbf24">"real solutions for real businesses"</tspan><tspan fill="#e2e8f0">;</tspan></text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="2.5s" fill="freeze"/>
+      <text x="112" y="300" fill="#e2e8f0">}</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="2.8s" fill="freeze"/>
+      <text x="88" y="326" fill="#e2e8f0">}</text>
+      <rect x="100" y="314" width="8" height="16" fill="#10b981">
+        <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+
+  <!-- status bar -->
+  <path d="M24 362h752v22a12 12 0 0 1-12 12H36a12 12 0 0 1-12-12z" fill="#061d15"/>
+  <line x1="24" y1="362" x2="776" y2="362" stroke="#10b981" stroke-opacity="0.35" stroke-width="1"/>
+  <text x="48" y="381" font-family="Consolas, Menlo, monospace" font-size="11.5" fill="#6ee7b7">main<tspan fill="#2f6b56">  Ln 10, Col 2</tspan></text>
+  <circle cx="666" cy="377" r="3.5" fill="#10b981"/>
+  <text x="678" y="381" font-family="Consolas, Menlo, monospace" font-size="11.5" fill="#6ee7b7">Live</text>
+  <text x="716" y="381" font-family="Consolas, Menlo, monospace" font-size="11.5" fill="#2f6b56">JavaScript</text>
+</svg>
