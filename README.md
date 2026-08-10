@@ -21,8 +21,8 @@
 <br/><br/>
 
 <!-- STATISTIK -->
-<img src="https://github-readme-stats.vercel.app/api?username=JundyAlka&show_icons=true&hide_border=true&bg_color=050b14&title_color=38bdf8&icon_color=818cf8&text_color=7dd3fc&include_all_commits=true&count_private=true&cache_seconds=86400" height="160" alt="GitHub Stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JundyAlka&layout=compact&hide_border=true&bg_color=050b14&title_color=38bdf8&text_color=7dd3fc&langs_count=8&cache_seconds=86400" height="160" alt="Top Languages" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=JundyAlka&theme=github_dark" height="200" alt="GitHub Stats" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=JundyAlka&theme=github_dark" height="200" alt="Top Languages" />
 
 <br/><br/>
 
